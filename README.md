@@ -1,8 +1,8 @@
-# Android Lab 4 - *Campgrounds*
+# Android Lab 5 - *CampgroundsPt2*
 
 Submitted by: **Abdelrahman**
 
-**Campgrounds** is an Android app that displays national parks with images, location, title, and description information
+**CampgroundsPt2** is an Android app that displays national parks with images, location, title, and description information. It also adds the functionality of fetching data from local database.
 
 Time spent: **3.5** hours spent in total
 
@@ -10,9 +10,9 @@ Time spent: **3.5** hours spent in total
 
 The following **required** functionality is completed:
 
-* [x]  Campgrounds are displayed using the RecyclerView
-* [X]  Can navigate to the Campground Details screen
-* [X]  Campground images are downloaded and displayed using Glide
+* [x] Most recently fetched data is stored locally in a database
+* [x] If user turns on airplane mode and closes and reopens app, old data from the database should be loaded
+
 
 The following **optional** features are implemented:
 
@@ -22,7 +22,7 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='Campground.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='Campground2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ScreenToGif
